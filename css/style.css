@@ -583,6 +583,10 @@ a:focus {
     min-height: 450px;
     /* background: #fff !important; */
   }
+  .bannerbg {
+    height: 90vh;
+    /* min-height: 550px; */
+  }
 }
 @media (max-width: 768px) {
   .banner .block h1 {
