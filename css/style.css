@@ -397,6 +397,10 @@ a:focus {
 }
 
 .navbar-brand {
+  display: flex;
+  place-items: center;
+  width: 60px;
+  height:60px;
   margin-top: 10px;
 }
 
@@ -514,7 +518,7 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/22.jpg") no-repeat 10%;
   background-size: cover;
   position: relative;
 }
@@ -523,7 +527,7 @@ a:focus {
   position: absolute;
   overflow: hidden;
   background: #fff;
-  background: url("../images/nhiimagenight.jpeg") no-repeat 20%;
+  background: url("../images/nhiimagenight.jpeg") no-repeat 10%;
   background-size: cover;
   opacity: 0.3;
   height: 80vh;
@@ -892,7 +896,7 @@ a:focus {
   left: 0px;
   position: absolute;
   content: "";
-  background: url("../images/bg/bg-2.jpg") no-repeat 50% 50%;
+  background: url("../images/nhiimagenight.jpeg") no-repeat 50% 50%;
 }
 .testimonial .slick-dots {
   text-align: left;
@@ -1350,8 +1354,11 @@ a:focus {
 }
 
 .logo {
-  font-weight: 600;
-  letter-spacing: 1px;
+  display: flex;
+  place-items: center;
+  width: 60px;
+  height:60px;
+  margin-top: 10px;
 }
 .logo h3 {
   color: #223a66;
